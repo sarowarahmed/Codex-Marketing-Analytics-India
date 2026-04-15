@@ -8,6 +8,23 @@ This project focuses on transforming raw survey data into **actionable marketing
 
 ---
 
+## 🚀 How to Use This Project
+
+1. **Environment Setup:** Ensure you have SQL Server Management Studio (SSMS) installed.
+2. **Data Ingestion:** Run `sql/data_ingestion.sql` to import the raw CSV files from the `/data` folder.
+3. **Modeling:** Execute `sql/data_modeling.sql` to establish the Star Schema and primary/foreign key relationships.
+4. **Validation:** (New!) Run `sql/data_integrity_checks.sql` to ensure data quality.
+5. **Optimization:** (New!) Run `sql/performance_optimization.sql` to apply indexes for faster query performance.
+6. **Analysis:** Use `sql/analysis_queries.sql` to generate marketing insights.
+
+## 📈 Suggested Business Intelligence Roadmap
+To further enhance this project, future iterations could include:
+* **Power BI Integration:** Connecting the Star Schema to Power BI for interactive dashboarding.
+* **Predictive Modeling:** Using Python (Scikit-Learn) to predict "Health Concern" trends based on respondent demographics.
+* **Automated ETL:** Setting up SQL Server Agent jobs to automate the data refresh process.
+
+---
+
 ## 🎯 Objective
 
 The primary objective of this project is to:
